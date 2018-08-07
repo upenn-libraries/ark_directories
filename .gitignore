@@ -1,5 +1,5 @@
 .idea
 
-manifest
+manifest.yml
 todos/
 todos_set.csv
