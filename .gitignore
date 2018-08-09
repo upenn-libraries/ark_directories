@@ -1,5 +1,5 @@
 .idea
-
+dirs/
 manifest.yml
 todos/
 todos_set.csv
