@@ -38,3 +38,11 @@ ruby arkdirs_generate_directories.rb $TODOS_DESTINATION/*.todo
 ```
 
 Where `$TODOS_DESTINATION` matches the `$TODOS_DESTINATION` argument given in the first step.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at [https://github.com/upenn-libraries/ark_directories](https://github.com/upenn-libraries/ark_directories).
+
+## License
+
+This code is available as open source under the terms of the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).
