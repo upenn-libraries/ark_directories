@@ -1,6 +1,12 @@
+GIT
+  remote: https://github.com/upenn-libraries/todo_runner.git
+  revision: 6420a9e529394aef45ab2668881a1a943da5f4ad
+  branch: master
+  specs:
+    todo_runner (0.3.2)
+
 GEM
   remote: https://rubygems.org/
-  remote: http://tuka.library.upenn.int:9292/
   specs:
     coderay (1.1.2)
     method_source (0.9.0)
@@ -8,7 +14,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     smarter_csv (1.2.4)
-    todo_runner (0.3.1)
 
 PLATFORMS
   ruby
@@ -16,7 +21,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   smarter_csv
-  todo_runner
+  todo_runner!
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
