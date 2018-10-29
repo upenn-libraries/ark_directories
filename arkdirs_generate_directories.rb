@@ -35,7 +35,7 @@ TodoRunner.define do
 
   task :log, on_fail: :FAIL, next_step: :SUCCESS do |todo_file|
     data = YAML.load todo_file
-    logger.info("Directory created at #{data[:destination]}/#{data[:ark_id]}")
+    logger.info("Directory created at #{data[:destination]}/#{Naming.directorify(data[:ark_id])}")
   end
 end
 
